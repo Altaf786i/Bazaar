@@ -67,7 +67,6 @@ export const getOrderDetails = (id) => async (dispatch) => {
     }
 };
 
-// Get Payment Status
 export const getPaymentStatus = (id) => async (dispatch) => {
     try {
         dispatch({ type: PAYMENT_STATUS_REQUEST });
